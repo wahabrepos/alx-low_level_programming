@@ -1,7 +1,2 @@
-#include <stdio.h>
-
-int main(void)
-{
-printf("gcc C -o $CFILE")
-return 0;
-}
+#!/bin/bash
+gcc main.c -o CFILE
