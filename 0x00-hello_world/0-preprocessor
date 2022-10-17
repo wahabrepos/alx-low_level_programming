@@ -1,5 +1,7 @@
 #include <stdio.h>
 
 int main(void)
-{printf("gcc C -o $CFILE")
+{
+printf("gcc C -o $CFILE")
+return 0;
 }
