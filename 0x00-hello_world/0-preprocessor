@@ -1,2 +1,5 @@
-#!/bin/bash
-gcc -E $CFILE > C
+#include <stdio.h>
+
+int main(void)
+{printf("gcc C -o $CFILE")
+}
