@@ -22,10 +22,10 @@ void print_rev(char *s)
 	
 	for (len = i; len > 0; len--)
 	{
-		_putchar(*s);
+		putchar(*s);
 		s--;
 	}
 
-	_putchar('\n');
+	putchar('\n');
 
 }
